@@ -16,9 +16,9 @@
 
 ## Como funciona
 Depois de instalado, o Lumi confere sozinho se existe versão nova aqui e se atualiza, sem pedir nada ao usuário.
-Cada versão é publicada em [Releases](../../releases) com:
+Ele lê o `latest.json` daqui quando o painel abre e depois a cada 30 minutos. Cada versão fica neste repositório:
 
-- `app-<versão>.zip`: o pacote da atualização;
-- `latest.json`: o aviso de versão nova, assinado digitalmente (o Lumi recusa qualquer pacote sem a assinatura certa).
+- `latest.json`: o aviso da versão mais nova, assinado digitalmente (o Lumi recusa qualquer pacote sem a assinatura certa);
+- `v<versão>/app-<versão>.zip`: o pacote da atualização, usado na próxima vez que o painel abrir.
 
 Este repositório guarda só os pacotes públicos. O código-fonte do Lumi é privado.
