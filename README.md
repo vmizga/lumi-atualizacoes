@@ -1,10 +1,24 @@
-# lumi-atualizacoes
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="imagens/logo-lumi-legendas.png">
+    <img src="imagens/logo-lumi-legendas-claro.png" alt="Lumi legendas" width="420">
+  </picture>
+</p>
 
-Pacotes públicos da atualização automática do **Lumi** (plugin de legendas para o DaVinci Resolve).
-O código-fonte fica no repositório privado; aqui ficam só os pacotes (embaralhados e assinados).
+<p align="center">
+  Atualizações oficiais do <b>Lumi</b>, plugin para DaVinci Resolve Studio que corta silêncios e tomadas erradas
+  e gera legendas animadas palavra por palavra.
+</p>
 
-- `latest.json`: a versão mais nova, com o sha256 do pacote e a assinatura ed25519.
-- `v<versão>/app-<versão>.zip`: o app de cada versão.
+<p align="center">
+  <img src="imagens/mascote-lumi.png" alt="O Lumi, gato mascote" width="420">
+</p>
 
-O Lumi lê `latest.json` daqui ao abrir e a cada 30 minutos, baixa o pacote, confere o sha256 e a
-assinatura, e usa a versão nova na próxima vez que o painel abrir. Pacote sem assinatura válida é ignorado.
+## Como funciona
+Depois de instalado, o Lumi confere sozinho se existe versão nova aqui e se atualiza, sem pedir nada ao usuário.
+Ele lê o `latest.json` daqui quando o painel abre e depois a cada 30 minutos. Cada versão fica neste repositório:
+
+- `latest.json`: o aviso da versão mais nova, assinado digitalmente (o Lumi recusa qualquer pacote sem a assinatura certa);
+- `v<versão>/app-<versão>.zip`: o pacote da atualização, usado na próxima vez que o painel abrir.
+
+Este repositório guarda só os pacotes públicos. O código-fonte do Lumi é privado.
