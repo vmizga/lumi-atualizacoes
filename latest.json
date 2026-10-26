@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
-  "url": "https://raw.githubusercontent.com/vmizga/lumi-atualizacoes/main/v1.0.1/app-1.0.1.zip",
-  "sha256": "875fb0c790cec49b32a7dcb87f52233f9e9e52abc1cf86e6854e6add551827d8",
-  "size": 697284,
-  "sig": "V2wnMu/qZwtkqk1/c74iWf5+28tPIiEAPs55fmUD/i+cskpiJl8myqryJP30UlQYQ/lvFM25tN0CbmUoNRzNCw=="
+  "version": "1.0.2",
+  "url": "https://raw.githubusercontent.com/vmizga/lumi-atualizacoes/main/v1.0.2/app-1.0.2.zip",
+  "sha256": "abbbf22020affed5d72d72db2d50bb371adb4c68e7a150caf66a75d384b7a4c0",
+  "size": 2261000,
+  "sig": "1AX1aNnKQU6lQyHnj3CvZLCvNdgODqLkUGBiAH3t4kRJdI38M6SSVwdN69fbjgAtSMgH9OXcuhdKDvomI1HyDw=="
 }
